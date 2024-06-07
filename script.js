@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('createTableButton').addEventListener('click', createTable);
 
   
 function createTable() {
@@ -31,8 +33,6 @@ function createTable() {
   }
 }
 
-// Add event listener to the button to trigger the createTable function
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('createTableButton').addEventListener('click', createTable);
+// Add event listener to the button to trigger the createTable funct
 });
 
